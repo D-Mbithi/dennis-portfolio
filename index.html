@@ -10,6 +10,7 @@
 
 <body>
     <header class="bg-blue-50" id="header">
+        <!-- Navbar -->
         <nav class="bg-[#0099FF]">
             <div class="flex justify-between py-5 w-[1200px] mx-auto border-b border-slate-200">
                 <h2 class="text-3xl font-medium text-white">
@@ -18,11 +19,13 @@
                 <ul class="flex gap-5 items-center">
                     <li><a href="#about" class="text-white text-sm font-bold">About</a></li>
                     <li><a href="#work" class="text-white text-sm font-bold">Work</a></li>
-                    <li><a href="#resume" class="text-white text-sm font-bold">Resume</a></li>
+                    <li><a href="#experience" class="text-white text-sm font-bold">Experience</a></li>
                     <li><a href="#contact" class="text-white text-sm font-bold">Contact</a></li>
                 </ul>
             </div>
         </nav>
+
+        <!-- Hero section -->
         <section id="home" class="h-screen w-full grid place-content-center gap-5"
             style="background-image: url('./assets/imgs/wave.svg'); background-repeat: no-repeat;">
             <div class="grid max-w-[1200px] mx-auto ">
@@ -38,14 +41,19 @@
             </div>
         </section>
     </header>
+
+    <!-- Main content section -->
     <main>
+        <!-- The Back Top Top Button -->
         <a href="#header" class="z-10 bottom-10 right-10 fixed border p-3 rounded-xl bg-[#0099FF] text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff"
                 class="h-6 w-6 hover:text-white">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
             </svg>
         </a>
-        <section id="abut" class="h-screen w-full py-20">
+
+        <!-- About Section -->
+        <section id="about" class="h-screen w-full py-20">
             <div class="grid max-w-[1200px] mx-auto grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 <div class="flex flex-col gap-10">
                     <h2 class="text-4xl font-medium text-[#0099FF]">
@@ -103,6 +111,7 @@
             </div>
         </section>
 
+        <!-- Work section -->
         <section id="work" class="h-screen w-full py-20 bg-blue-50">
             <div class="max-w-[1200px] mx-auto">
                 <h2 class="text-4xl text-[#0099FF] font-medium text-serif border-b border-[#0099ff] pb-5">My Work
@@ -129,7 +138,9 @@
                 </div>
             </div>
         </section>
-        <section id="resume" class="h-screen w-full py-20 bg-white">
+
+        <!-- Experience Section -->
+        <section id="experience" class="h-screen w-full py-20 bg-white">
             <div class="max-w-[1200px] mx-auto">
                 <h2 class="text-4xl text-[#0099FF] font-medium text-serif border-b border-[#0099ff] pb-5">My Skills and
                     Experiences </h2>
@@ -186,6 +197,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Contact section -->
         <section id="contact" class="h-screen w-full py-20 bg-blue-50">
             <div class="max-w-[1200px] mx-auto">
                 <h2 class="text-4xl text-[#0099FF] font-medium text-serif mb-20 border-b border-[#0099ff] pb-5">My
@@ -243,14 +256,14 @@
                 </div>
         </section>
     </main>
+
+    <!-- Portifolio footer section -->
     <footer class="bg-gray-800">
         <div class="py-5">
             <p class="text-center font-semibold text-white">&copy; 2025. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Implement the Back Top Top Button -->
-    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>
